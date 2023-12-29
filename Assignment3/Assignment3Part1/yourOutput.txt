@@ -1,0 +1,11 @@
+Log: getCallingMethodName: FALSE
+Exception in thread "main" java.lang.RuntimeException: java.io.FileNotFoundException: C:\Users\joeok\Documents\Assignment 3\Assignment3Part1\01-one-word-per-line.txt (The system cannot find the file specified)
+	at literature.InputReader.readDictionary(InputReader.java:154)
+	at literature.Runner.main(Runner.java:125)
+Caused by: java.io.FileNotFoundException: C:\Users\joeok\Documents\Assignment 3\Assignment3Part1\01-one-word-per-line.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.util.Scanner.<init>(Scanner.java:639)
+	at literature.InputReader.readDictionary(InputReader.java:66)
+	... 1 more
